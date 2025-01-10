@@ -129,7 +129,7 @@ const WorldMap = () => {
       </div>
 
       {/* Enhanced Statistics */}
-      {!loading && <div className={styles.infoWrap}>
+      {<div className={styles.infoWrap}>
         <div className={`${styles.infoContainer} w-[95%] md:w-auto max-w-full md:max-w-xl`}>
           <div className='w-full p-2 flex flex-col items-center'>
             <div className='flex gap-3 md:gap-6 mb-2 flex-wrap justify-center'>
