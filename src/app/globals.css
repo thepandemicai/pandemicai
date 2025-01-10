@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-marker {
+  animation-name: grow;
+  animation-iteration-count: infinite;
+  animation-duration: .5s;
+  animation-timing-function: linear;
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px rgb(7, 192, 199);
+}
+
+@keyframes grow {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: .4;
+  }
+}
