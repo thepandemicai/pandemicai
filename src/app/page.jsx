@@ -164,7 +164,7 @@ const WorldMap = () => {
       {/* News Ticker */}
       <div className={`${styles.newsWrap} w-[95%] md:w-[90%]`}>
         <div className="relative">
-          <img src='/news2.jpg' className="w-6 h-6 rounded-full border border-red-500"/>
+          <img src='/news2.jpg' className="w-12 h-12 rounded-full border border-red-500"/>
           <div className="absolute -top-0.5 -right-0.5 w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
         </div>
         {popup?.title && !loading && 
@@ -202,8 +202,8 @@ const WorldMap = () => {
       )}
 
       <div className='fixed top-1/4 bg-black bg-opacity-50 right-2 p-2 md:p-4 rounded flex flex-col gap-6 md:gap-10'>
-        <Link href="https://github.com/thepandemicai/pandemic-ai"><Image src='/x.png' alt='twitter' width={30} height={30} className="md:w-[40px] md:h-[40px]"/></Link>
-        <Link href="#"><Image src='/gitHub.png' alt='github' width={30} height={30} className="md:w-[40px] md:h-[40px]"/></Link>
+        <Link href="https://github.com/thepandemicai/pandemic-ai"><Image src='https://i.postimg.cc/bvBzL4mD/x.png' alt='twitter' width={30} height={30} className="md:w-[40px] md:h-[40px]"/></Link>
+        <Link href="#"><Image src='https://i.postimg.cc/NjQf06yM/github.png' alt='github' width={30} height={30} className="md:w-[40px] md:h-[40px]"/></Link>
       </div>
     </div>
   );
