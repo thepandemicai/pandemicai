@@ -178,12 +178,12 @@ const WorldMap = () => {
       {showPopup && popup?.title && !loading && (
         <div className={`${styles.popupWrap} animate-slideUp`}>
           <div className={`${styles.popup} w-[90%] md:w-[400px] mx-auto`}>
-            <img 
+            {/* <img 
               src={popup?.icon || '/news2.jpg'} 
               width={60} 
               className="md:w-[80px] w-[60px] mx-auto mb-2" 
               alt="News Icon" 
-            />
+            /> */}
             <div className='flex flex-col px-2 md:px-3'>
               <h2 className='font-bold text-sm md:text-base mb-1.5'>{popup?.title}</h2>
               <p className="text-gray-300 text-xs md:text-sm leading-relaxed">{popup?.mainMessage}</p>
