@@ -20,7 +20,7 @@ const WorldMap = () => {
     icon: "",
     supportingNews: []
   });
-  const population = useRef(8161972);
+  const population = useRef(8161972456);
   const [loading, setLoading] = useState(true);
   const [mounted, setMounted] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
