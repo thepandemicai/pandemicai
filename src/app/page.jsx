@@ -179,7 +179,7 @@ const WorldMap = () => {
         <div className={`${styles.popupWrap} animate-slideUp`}>
           <div className={`${styles.popup} w-[90%] md:w-[400px] mx-auto`}>
             <img 
-              src={popup?.icon || '/pnews.jpg'} 
+              src={'/pnews.jpg'} 
               width={60} 
               className="md:w-[80px] w-[60px] mx-auto mb-2 rounded-lg" 
               alt="News Icon" 
