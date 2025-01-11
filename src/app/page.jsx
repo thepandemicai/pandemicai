@@ -203,7 +203,7 @@ const WorldMap = () => {
 
       <div className='fixed top-1/4 bg-black bg-opacity-50 right-2 p-2 md:p-4 rounded flex flex-col gap-6 md:gap-10'>
         <Link href="https://x.com/PandemicSolana"><img src='https://i.postimg.cc/bvBzL4mD/x.png' alt='twitter' width={30} height={30} className="md:w-[40px] md:h-[40px]"/></Link>
-        <Link href="https://github.com/thepandemicai/pandemicai"><img src='https://i.postimg.cc/NjQf06yM/github.png' alt='github' width={30} height={30} className="md:w-[40px] md:h-[40px]"/></Link>
+        <Link href="https://github.com/thepandemicai"><img src='https://i.postimg.cc/NjQf06yM/github.png' alt='github' width={30} height={30} className="md:w-[40px] md:h-[40px]"/></Link>
       </div>
     </div>
   );
